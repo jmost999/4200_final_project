@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background: #ffffff;
+  color: #222;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+p.description {
+  max-width: 900px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+select {
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.chart-container {
+  max-width: 1000px;
+}
+
+.axis path,
+.axis line {
+  stroke: #999;
+}
+
+.legend {
+  font-size: 13px;
+}
+
+.tooltip {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 13px;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  fill: #555;
+}
+
+.party-label {
+  font-size: 13px;
+}
