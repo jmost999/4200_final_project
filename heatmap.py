@@ -1,11 +1,12 @@
-from cleaner import df_clean
 import altair as alt
 import plotly.express as px
 import pandas as pd
 import matplotlib.pyplot as plt
+from narwhals import DataFrame
 
-
-df_clean_copy = df_clean.copy()
+df = pd.read_csv("nonvoters_clean.csv")
+df = pd.DataFrame(df)
+df_clean_copy = df
 trust_president = df_clean_copy.groupby("Q30")["Q8_1"].mean().tolist()
 trust_congress = df_clean_copy.groupby("Q30")["Q8_2"].mean().tolist()
 trust_supreme_court = df_clean_copy.groupby("Q30")["Q8_3"].mean().tolist()
