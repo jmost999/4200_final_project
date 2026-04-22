@@ -46,7 +46,7 @@ chart = (
         "(party === 'All') || (datum.party_label === party)"
     )
     .add_params(party_param)
-    .properties(width=600, height=600, title="Ease of Voting vs. Voter Frequency")
+    .properties(width=500, height=500, title="Ease of Voting vs. Voter Frequency")
 )
 
 chart.save("heatmap_ease_of_voting.html")
