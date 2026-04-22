@@ -26,6 +26,8 @@ if __name__ == "__main__":
                     color_continuous_scale = "reds_r",
                     title="Trust by Political Parties (lower values imply more trust)"
                    )
+    fig.update_layout(width=850, height=1100)
+
 
 
     fig.show()
