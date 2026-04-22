@@ -41,8 +41,8 @@ chart = alt.Chart(bar_df).mark_bar(cornerRadiusTopLeft=4, cornerRadiusTopRight=4
     "(income_val === 'All') || (datum.income === income_val)"
 ).properties(
     title="Always Voters by Party",
-    width=500,
-    height=400
+    width=1100,
+    height=850
 )
 
 chart.save("bar_chart.html")
