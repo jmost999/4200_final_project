@@ -58,8 +58,8 @@ chart = alt.Chart(long_df).mark_boxplot(
 ).transform_filter(
     "(party_val === 'All') || (datum.party === party_val)"
 ).properties(
-    width=1100,
-    height=850,
+    width=600,
+    height=600,
     title="How Important Is It To... — Distribution by Party"
 )
 
